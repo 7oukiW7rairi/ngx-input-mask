@@ -1,10 +1,10 @@
 # NgxInputMask
 
 Angular 4/6/8 input mask directive for web applications. Easy to integrate and use.
-It's not a plugin and there's no NPM module for it.
-I created this directive to meet our needs in some projects and i published here, maybe it will help someone else.
-Originaly, it's build for dateTime input mask and then i made it for all input formatting mask purpose.
-It has a unique feature for dateTime input mask: autoCompletion of input field with current date and time.
+It's not a plugin and there's no NPM module for it and you can consider it as a starting point for you.
+I created this directive to meet our needs in some projects and i published the code here, maybe it will help someone else.
+Originaly, it was build for date-time input mask as a separate functions then i made it for all input formatting mask purpose as a "plugin".
+It has a feature for date-time input mask to auto-complete the input field with current date and time.
 
 ### Installation
 - `npm install` to install all dependecies 
@@ -198,7 +198,7 @@ Input value: 08/08
 Masked value: 08/08/2020T23:59:59
 ```
 
-default DateTime separator :
+Valid DateTime separator :
 
    | character |
    |-----------|
